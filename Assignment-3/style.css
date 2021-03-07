@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+.in{
+    display: inline-block;
+    border: 2px solid lightgreen;
+    color: white;
+    font-size: 2rem;
+    padding: 4px;
+    background-color:black;
+    transition: .5s;
+}
+.out{
+    border: 2px solid black;
+    height: 500px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.in:hover{
+    transform: translateY(-2px);
+    border: 2px solid green;
+    box-shadow: 0px 3px 3px 1px green;
+}
