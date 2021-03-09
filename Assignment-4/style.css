@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+nav{
+    width: 100vw;
+    display: flex;
+    justify-content:flex-start;
+    padding: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 30px;
+    border: 1px solid grey ;
+    background-color: grey;
+}
+
+div img{
+    border: 1px solid black;
+    width: 99.8vw;
+    height: 300px;
+    position: absolute;
+}
+.a {
+    animation: four 8s infinite linear;
+}
+.b {
+    animation: third 8s infinite linear;
+}
+.c {
+    animation: sec 8s infinite linear; 
+}
+.d {
+    animation : first 8s infinite linear;
+}
+
+@keyframes third{
+    0%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes sec{
+    0%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes first{
+    0%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.cards{
+    width: 100vw;
+    /* height: 400px; */
+    margin-top: 320px;
+    /* background: url(https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8Zm9yZXN0fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60); */
+    display: flex;
+    justify-content: space-evenly;
+    
+    flex-wrap: wrap;
+}
+
+.cards img{
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    transition: .5s;
+}
+.cards img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+footer{
+    width: 100vw;
+    height: 60px;
+    padding-left: 5px;
+    margin-top: 5px;
+    background-color: lightgrey;
+    
+}
