@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#head{
+    background-color: rgb(224, 118, 118);
+    font-size: 50px;
+    margin: 5px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.section{
+    width: 700px;
+    margin: 50px auto;
+}
+.inp{
+    font-size: 40px;
+    width: 75%;
+    
+}
+.inp_btn{
+    font-size: 40px;
+    width: 20%;
+}  
+
+ul{
+    list-style : none;
+}
+
+li{
+    display: inline-block;
+    margin-top: 20px;
+    width: 50%;
+    border: 1px solid black;
+    font-size: 1.5rem;
+}
+
+.btn_del{
+    margin-left: 5px;
+    padding: 3px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: rgb(75, 231, 75);
+}
+.btn_imp{
+    margin-left: 50px;
+    padding: 3px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: rgb(224, 118, 118);
+}
+
+.unmark{
+    background-color: red;
+    font-size: 30px;  
+    font-weight: bold;
+}
